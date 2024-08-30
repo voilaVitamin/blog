@@ -1,0 +1,13 @@
+site_name: Blog
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+plugins:
+  - blog:
+      blog_dir: . 
+  - search
+  - tags
+nav:
+  - index.md
