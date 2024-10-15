@@ -5,6 +5,7 @@ date: 2024-10-08
 
 # MSRCA
 
+<!-- more -->
 
 - I make small software programs which can be used to make money. Currently this is all stored in my personal account, similar to a facebook account. I want to transfer this to a legal entity which holds its ownership. 
 
