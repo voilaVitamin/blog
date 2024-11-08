@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="../../../10/15/why-msrcad/">
+        <link rel="prev" href="../../03/swift-grpc/">
       
-      
-        <link rel="next" href="../../05/giraffe/">
       
       
       <link rel="icon" href="../../../../assets/images/favicon.png">
@@ -20,7 +18,7 @@
     
     
       
-        <title>Swift grpc - VoilaVitamin</title>
+        <title>Giraffe - VoilaVitamin</title>
       
     
     
@@ -61,6 +59,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#structure" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -93,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Swift grpc
+              Giraffe
             
           </span>
         </div>
@@ -295,6 +298,32 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Features
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -330,7 +359,7 @@
                     <li class="md-nav__item">
                       <div class="md-nav__link">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5v-5Z"/></svg>
-                        <time datetime="2024-11-03 00:00:00" class="md-ellipsis">November 3, 2024</time>
+                        <time datetime="2024-11-05 00:00:00" class="md-ellipsis">November 5, 2024</time>
                       </div>
                     </li>
                     
@@ -368,34 +397,46 @@
     
     
     
-      <span class="md-tag">Swift</span>
+      <span class="md-tag">Machine Learning</span>
     
   
     
     
     
-      <span class="md-tag">GRPC</span>
+      <span class="md-tag">Data Mining</span>
+    
+  
+    
+    
+    
+      <span class="md-tag">Go</span>
+    
+  
+    
+    
+    
+      <span class="md-tag">Dataframe</span>
     
   
 </nav>
 
 
 
-  <h1>Swift grpc</h1>
+  <h1>Giraffe</h1>
 
-<p>We will create a grpc server in swift and access it from a go client.</p>
+<p>Giraffe is a simple implementation of a dataframe. Giraffe is to be used as a library to represent and manipulate datasets as dataframe. </p>
 <!-- more -->
 
-<p>We will track what the guy in the <a href="https://medium.com/@sergiocampama/tutorial-type-safe-apis-with-swift-grpc-dc4b0e4045ae">blog post on medium</a> says.</p>
-<pre><code>swift package init
-</code></pre>
-<p>create the <code>.proto</code> file</p>
-<pre><code>brew install protobuf
-</code></pre>
-<pre><code>brew install grpc-swift
-</code></pre>
-<p>its a bit too complex to implement a metal api library, without good understanding of swift.</p>
-<p>Postponing it for later</p>
+<h2 id="structure">Structure</h2>
+<p>Giraffe is a column oriented database. </p>
+<h2 id="features">Features</h2>
+<ul>
+<li>Giraffe should read data from csv. </li>
+<li>Giraffe must support conversion of string values to float. </li>
+<li>Giraffe must be able to group based on a specific column</li>
+<li>Giraffe should delete rows for missing values of a specific column. </li>
+<li>Giraffe should be able to hot encode against given properties/columns</li>
+</ul>
 
 
 
