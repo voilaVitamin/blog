@@ -9,7 +9,3 @@ tags:
 # Files to delete in `src/`
 
 Everything except `App.js`, `index.css` and `index.js`
-
-# Files to delete in `src/`
-
-Everything except  `index.html` and `robots.txt`
