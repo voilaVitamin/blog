@@ -1,7 +1,7 @@
 ---
 draft: false 
 date: 2024-11-05
-tags:
+categories:
   - Machine Learning 
   - Data Mining
   - Go

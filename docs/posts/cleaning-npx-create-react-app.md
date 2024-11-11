@@ -1,9 +1,8 @@
 ---
 draft: false 
 date: 2024-10-13
-tags:
+categories:
   - React 
-  - cretea-react-app
 ---
 
 # Files to delete in `src/`

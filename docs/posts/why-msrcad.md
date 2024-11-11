@@ -1,9 +1,8 @@
 ---
 draft: false 
 date: 2024-10-15
-tags:
+categories:
   - Msrcad 
-  - Code Assistant
 ---
 # Why msrcad?
 

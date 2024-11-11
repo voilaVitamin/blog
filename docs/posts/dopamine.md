@@ -1,7 +1,7 @@
 ---
 draft: false 
 date: 2024-11-08
-tags:
+categories:
   - Trivial
 ---
 

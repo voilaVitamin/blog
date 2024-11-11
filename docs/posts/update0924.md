@@ -1,7 +1,7 @@
 ---
 draft: false 
 date: 2024-09-30
-tags:
+categories:
   - Career 
   - Resume
 ---
