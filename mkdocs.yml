@@ -6,6 +6,7 @@ theme:
     primary: light-green
   features:
     - navigation.sections
+  logo: assets/vv.svg
 plugins:
   - blog:
       blog_dir: . 
